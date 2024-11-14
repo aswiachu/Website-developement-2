@@ -1,0 +1,85 @@
+#top-bar {
+  background-color: #ebebeb;
+  padding: 10px 0;
+  font-family: "Open Sans", sans-serif;
+
+}
+body, html {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -.2px;
+}
+#header {
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: -.2px;
+  font-size: 13px;
+  padding: 5px 0;
+}
+.body-margin {
+  width: 80%;
+  
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+.para {
+  color: #555;
+}
+.slider-content-child {
+  background: rgba(0, 0, 0, 0.65);
+
+}
+.content {
+  background: rgba(0, 0, 0, 0.65);
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .slider-content {
+  
+  }
+
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.slider-child {
+  height: 100vh;
+}
+.icon-size {
+  width: 70px;
+  height: auto;
+}
+.icon-size-font {
+  font-size: 50px;
+}
+body, html {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+section.container {
+  overflow-y: hidden; /* Allow vertical scroll only if necessary */
+}
+
+@media (max-width: 767px) {
+  .slider{
+    height: 75vh;
+  }
+  .slider-child {
+    height: 80vh;
+  }
+
+}
